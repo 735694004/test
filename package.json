@@ -1,11 +1,14 @@
 {
   "name": "myapp1",
   "version": "0.1.0",
+  "homepage": "https://735694004.github.io/test",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "flux": "^3.1.3",
+    "gh-pages": "^2.1.0",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0"
