@@ -1,5 +1,8 @@
+li{
+  list-style: none;
+}
 .App {
-  text-align: center;
+  text-align: left
 }
 
 .App-logo {
@@ -30,4 +33,13 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+.controller{
+  background:deeppink;
+  padding: 20px;
+}
+.view{
+  background:pink;
+  padding:10px;
 }
